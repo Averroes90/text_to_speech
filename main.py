@@ -2,7 +2,6 @@
 import click
 from src.pipeline import TTSPipeline
 from adapters.google_adapters.google_tts_adapter import GoogleVoicePresets
-import os
 from pathlib import Path
 
 

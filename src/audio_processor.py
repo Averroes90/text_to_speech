@@ -1,8 +1,7 @@
 import os
 from pathlib import Path
-from typing import Optional, List, Any
+from typing import List, Any
 from handlers_and_protocols.protocols import TTSServiceHandler
-from test_bypass import synthesize_bypass
 
 
 class AudioProcessor:

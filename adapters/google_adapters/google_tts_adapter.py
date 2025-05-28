@@ -5,10 +5,7 @@ from .google_environment_loader import GoogleEnvironmentHandler
 from dataclasses import dataclass
 from enum import Enum
 from typing import Optional
-import os
-from dotenv import load_dotenv
 import logging
-import utils
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

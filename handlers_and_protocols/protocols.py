@@ -1,6 +1,5 @@
 from abc import ABC, abstractmethod
-from typing import Optional, Any
-import io
+from typing import Any
 
 
 class EnvironmentHandler(ABC):
